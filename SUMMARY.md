@@ -25,5 +25,5 @@
    * [baseapp.go](BaseappAndApp/baseapp-go.md)
    * [app.go](BaseappAndApp/app-go.md)
    * [how to add the my module](BaseappAndApp/add-my-module.md)
-* [Appendix](Appendix/)
+* [Appendix](Appendix/basicstruct.md)
 
