@@ -1,4 +1,3 @@
 # Introduction
 
-> Hello world
-> how to write the module in CosmosSDK
+> How to write the module using CosmosSDK such as bank, stake, governance.
