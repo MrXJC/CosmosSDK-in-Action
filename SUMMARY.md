@@ -5,7 +5,7 @@
   * [CosmosSDK](Outline/CosmosSDK.md)
   * [Tendermint](Outline/Tendermint.md)
   * [ABCI](Outline/ABCI.md)
-* [Module(governance)](Module/)
+* [Module(governance)](Module/Architecture.md)
    * [message types](Module/message/msg-go.md)
       * [msg.go](Module/message/msg-go.md)
       * [msg.go - template](Module/message/msg-go-template.md)
