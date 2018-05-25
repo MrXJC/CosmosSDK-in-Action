@@ -17,7 +17,7 @@
 > ABCI其实就是Tendermint 和 ComosSDK的桥梁（也就是我们要写的模块）。
 
 下面这张图是我自己画的整个comosSDK和tendermint通过ABCI连接的消息传递的架构图（没有画cosmosSDK 返回给tendermint结果的部分）：
-![img](https://github.com/MrXJC/CosmosSDK-in-Action/blob/master/res/pic/ABCI-CosmosSDK-Tendermint.png)
+![img](http://on-img.com/chart_image/5b07a905e4b0fccf723587ff.png?_=1527235020269)
 
 然后我通过讲解某用户发送申请成为一个验证人的交易（我们可以称为`MsgDeclareCandidacy`）流程，来更好的理解我画的图和ABCI接口的牛逼之处。
 
