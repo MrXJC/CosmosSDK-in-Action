@@ -10,4 +10,4 @@
 Tendermint实现了网络层和共识层的功能，而让开发人员通过ABCI接口实现应用层的逻辑。这样的设计让Tendermint成为了一个通用的共识引擎，你可以在上面实现各种定制化的功能。
 
 ## Detail
-Tendermint[http://tendermint.readthedocs.io/en/master/](http://tendermint.readthedocs.io/en/master/)
+Tendermint doc [http://tendermint.readthedocs.io/en/master/](http://tendermint.readthedocs.io/en/master/)
