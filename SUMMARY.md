@@ -5,7 +5,7 @@
   * [CosmosSDK](Outline/CosmosSDK.md)
   * [Tendermint](Outline/Tendermint.md)
   * [ABCI](Outline/ABCI.md)
-* [Module(stake)](Module/Architecture.md)  
+* [Module Create](Module/Architecture.md)  
    * [Add My Module](BaseappAndApp/add-my-module.md)
    * [Main App](BaseappAndApp/app-go.md)
       * [baseapp.go](BaseappAndApp/baseapp-go.md)
