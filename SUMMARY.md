@@ -7,7 +7,7 @@
   * [ABCI](Outline/ABCI.md)
 * [Module Create](Module/Architecture.md)  
    * [Add My Module](BaseappAndApp/add-my-module.md)
-   * [Setup the main app](BaseappAndApp/app-go.md)
+   * [Setup the main app](BaseappAndApp/baseapp-go.md)
       * [baseapp.go](BaseappAndApp/baseapp-go.md)
       * [app.go](BaseappAndApp/app-go.md)
    * [Defining the message(msg)](Module/message/msg-go.md)
