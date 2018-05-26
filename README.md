@@ -1,6 +1,6 @@
 # Introduction
 
-> How to write the module using CosmosSDK based on Gaia such as bank, stake, governance.
+> How to write the module using CosmosSDKv0.17.0 based on Gaia such as bank, stake, governance.
 
 ## Outline
 **Ouline** 部分主要介绍Tendermint和CosmosSDK是什么。ABCI是什么。ABCI在Tendermint和CosmosSDK中间起到了什么作用。整个交易信息如何在tendermint和CosmosSDK中间流通
