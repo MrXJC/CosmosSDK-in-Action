@@ -1,5 +1,5 @@
 # msg.go
-> Loc:
+> Loc:x/stake/msg.go
 > 简单分析源码，然后在template中写一个mymodule模版。
  
 ```go
