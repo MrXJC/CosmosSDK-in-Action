@@ -1,5 +1,5 @@
 # app.go
-> Loc:
+> Loc:cmd/gaia/app/app.go
 
 具体gaiaApp对baseapp的二次封装结构
 
