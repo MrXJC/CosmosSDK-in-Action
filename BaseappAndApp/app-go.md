@@ -105,10 +105,4 @@ func MakeCodec() *wire.Codec {
 ```
 这个go-amino序列化的部分，只需要添加自己的模块部分即可mymodule.RegisterWire(cdc)
 这个在`wire.go`里面声明定义
-## 总结一遍
-> （上面说的很分散，按照我说的做哈）
-
-1. 1
-2. 2
-3. 3
-4. 4
+## 具体细节 大家可以参考我的 app.go-mymodule 模版
