@@ -9,7 +9,10 @@
 **Module** 分模块介绍了构建CosmosSDK模块方法与顺序，如何编写模块的代码。主要以stake为例子，一边进行源码分析，一边进行源码模版的总结，提供开发者参考。
 
 ## Module CLI
-**CLI**
+模块的命令行接口，发送交易和查询交易。
+
+##  Example
+* [**mymodule**](https://github.com/MrXJC/CosmosSDK-in-Action/tree/master/Example/mymodule)从零开始构建一个简单的ABCI应用来开发区块链应用
 
 ## Module Test
 
