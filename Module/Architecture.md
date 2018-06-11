@@ -57,3 +57,6 @@ gaiacli gaiad 下的main.go 都是调用app.go 里面的方法。
 4. **handler.go** 根据msg的类型调用相应的keeper实现代码逻辑，数据存取，返回信息给tendermint，一般就是实现abci接口的 checktx 和 delivertx。对于stake来说，也就是四种方法（在msg.go中定义）。
 5. **wire.go**  go-amino序列化的注册（为tendermint与cosmosSDK之间消息传递）
 6. **error.go** 定义一些关于stake的错误类型 
+
+## Example/mymodule
+源码分析CosmosSDK的stake模块，然后再来从零实现自己的mymodule。大概流程是 分析完stake的msg.go,再构建mymodule的msg.go.如果你想先体验一下mymodule的功能，你可以提前看Example的章节。

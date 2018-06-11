@@ -1,5 +1,5 @@
 ##添加自己的mymodule到app.go
-> Loc:github.com/mrxjc/
+> Loc:https://github.com/MrXJC/CosmosSDK-in-Action/tree/master/Example/mymodule/cmd/gaia/app
 
 下面是我具体添加mymodule的代码片段，具体细节见注释。
 
