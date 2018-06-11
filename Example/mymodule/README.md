@@ -1,5 +1,5 @@
 # MyModule
->简单的自己应用业务逻辑的实现。
+>自己实现的简单应用的业务逻辑。
 
 ## Description
 实现了很简单的逻辑，这个模块接收两种消息`MsgDo`和`MsgUndo`,前者消息的操作是根据提供的非负整数N，对发送消息的账户，增加10steak*N的token，后者则是撤销由`MsgDo`消息导致账户累计增加的全部token。具体细节可以见Usage.
@@ -73,7 +73,7 @@ gaiad init --gen-txs --chain-id=gov-test -o --home=gaia1
   "app_message": null
 }
 ```
-构建测试网
+构建与初始化测试网
 
 ```bash
 gaiacli keys list                                                                           
@@ -92,10 +92,7 @@ gaiad start --home=gaia1
 ```bash
 VADDR1=D2A7EAFFAC63040166C1FB669D2B32CEC40240EB
 ```
-```
-```
-查询账户
-
+设置账户的环境变量，后面的命令可以很方便的使用。
 
 ```bash
 gaiacli do $VADDR1 5 --name=gov1 --chain-id=gov-test
@@ -179,5 +176,5 @@ gaiacli account $VADDR1
 
 ```
 发送`MsgUndo`消息
-查询账户余额为150steak,因为150steak-50steak-50steak，最后剩50steak
+查询账户余额为50steak,因为150steak-50steak-50steak，最后剩50steak
 
