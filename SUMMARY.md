@@ -30,5 +30,7 @@
    * [Add My Module](Module/add-my-module.md)
 * [Module CLI](CLI/CLI.md)
 * [Module Test](Test/Test.md)
+* [Example](Example/)
+  * [MyModule](Example/mymodule/README.md)
 * [Appendix](Appendix/basicstruct.md)
 
