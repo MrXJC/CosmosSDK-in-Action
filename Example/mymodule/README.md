@@ -1,9 +1,9 @@
-#MyModule
+# MyModule
 >简单的自己应用业务逻辑的实现。
 
-##Description
+## Description
 实现了很简单的逻辑，这个模块接收两种消息`MsgDo`和`MsgUndo`,前者消息的操作是根据提供的非负整数N，对发送消息的账户，增加10steak*N的token，后者则是撤销由`MsgDo`消息导致账户累计增加的全部token。具体细节可以见Usage.
-##Install
+## Install
 
 ```bash
 cd $GOPATH/src/github.com
@@ -36,13 +36,13 @@ make install
 ```
  编译安装，生成gaiad与gaiacli。
  
-##Usage
+## Usage
 ```bash
 gaiad init gen-tx --name=gov1 --home="gaia1"
 {
   "app_message": {
     "secret": "siege brief foam drive side oak strong swear evoke clutch business uphold giraffe lava assume abandon"
-  },
+},
   "gen_tx_file": {
     "node_id": "7d8e637b63a16099b36a75b0afe5a31a5a3515df",
     "ip": "192.168.150.109",
